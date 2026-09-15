@@ -27,9 +27,9 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ghcr.io/${{ github.repository_owner }}/gaming-hub-build:latest .
+            -t ghcr.io/phantommw/gaming-hub-build:latest .
 
       - name: Push Docker image
         run: |
           docker push \
-            ghcr.io/${{ github.repository_owner }}/gaming-hub-build:latest
+            ghcr.io/phantommw/gaming-hub-build:latest
