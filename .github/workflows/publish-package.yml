@@ -3,6 +3,7 @@ name: Build and Publish Gaming Hub
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   build-and-publish:
