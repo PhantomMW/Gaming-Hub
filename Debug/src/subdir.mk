@@ -16,7 +16,6 @@ C_SRCS += \
 ../src/ST7735S_program.c \
 ../src/SysTick_program.c \
 ../src/TIM_program.c \
-../src/USART_program.c \
 ../src/main.c 
 
 OBJS += \
@@ -32,7 +31,6 @@ OBJS += \
 ./src/ST7735S_program.o \
 ./src/SysTick_program.o \
 ./src/TIM_program.o \
-./src/USART_program.o \
 ./src/main.o 
 
 C_DEPS += \
@@ -48,7 +46,6 @@ C_DEPS += \
 ./src/ST7735S_program.d \
 ./src/SysTick_program.d \
 ./src/TIM_program.d \
-./src/USART_program.d \
 ./src/main.d 
 
 

@@ -3490,56 +3490,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./src/TIM_program.o
  .debug_macro   0x00000000      0x174 ./src/TIM_program.o
  .debug_macro   0x00000000       0xee ./src/TIM_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .group         0x00000000        0xc ./src/USART_program.o
- .text          0x00000000        0x0 ./src/USART_program.o
- .data          0x00000000        0x0 ./src/USART_program.o
- .bss           0x00000000        0x0 ./src/USART_program.o
- .text.USART_pstGetPeripheral
-                0x00000000       0x28 ./src/USART_program.o
- .text.USART_voidSetBaudRate
-                0x00000000       0x32 ./src/USART_program.o
- .text.USART_voidInit
-                0x00000000       0xe0 ./src/USART_program.o
- .text.USART_voidEnable
-                0x00000000       0x12 ./src/USART_program.o
- .text.USART_voidDisable
-                0x00000000       0x12 ./src/USART_program.o
- .text.USART_voidSendData
-                0x00000000       0x1c ./src/USART_program.o
- .text.USART_u16ReceiveData
-                0x00000000       0x1e ./src/USART_program.o
- .text.USART_voidSendString
-                0x00000000       0x1a ./src/USART_program.o
- .text.USART_u8GetFlagStatus
-                0x00000000       0x18 ./src/USART_program.o
- .text.USART_voidEnableInterrupt
-                0x00000000       0x54 ./src/USART_program.o
- .text.USART_voidDisableInterrupt
-                0x00000000       0x54 ./src/USART_program.o
- .debug_info    0x00000000      0x6b3 ./src/USART_program.o
- .debug_abbrev  0x00000000      0x1b1 ./src/USART_program.o
- .debug_loc     0x00000000      0x3f0 ./src/USART_program.o
- .debug_aranges
-                0x00000000       0x70 ./src/USART_program.o
- .debug_ranges  0x00000000       0x60 ./src/USART_program.o
- .debug_macro   0x00000000       0x5c ./src/USART_program.o
- .debug_macro   0x00000000      0xa6c ./src/USART_program.o
- .debug_macro   0x00000000      0x34e ./src/USART_program.o
- .debug_macro   0x00000000       0x16 ./src/USART_program.o
- .debug_macro   0x00000000       0x22 ./src/USART_program.o
- .debug_macro   0x00000000       0x16 ./src/USART_program.o
- .debug_macro   0x00000000      0x15e ./src/USART_program.o
- .debug_line    0x00000000      0x28f ./src/USART_program.o
- .debug_str     0x00000000     0x4493 ./src/USART_program.o
- .comment       0x00000000       0x7f ./src/USART_program.o
- .debug_frame   0x00000000      0x10c ./src/USART_program.o
- .ARM.attributes
-                0x00000000       0x33 ./src/USART_program.o
  .group         0x00000000        0xc ./src/main.o
  .group         0x00000000        0xc ./src/main.o
  .group         0x00000000        0xc ./src/main.o
@@ -3661,7 +3611,6 @@ LOAD ./src/SPI_program.o
 LOAD ./src/ST7735S_program.o
 LOAD ./src/SysTick_program.o
 LOAD ./src/TIM_program.o
-LOAD ./src/USART_program.o
 LOAD ./src/main.o
 LOAD d:/embedded systems avr tools/01- imt sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libstdc++_nano.a
 LOAD d:/embedded systems avr tools/01- imt sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a
