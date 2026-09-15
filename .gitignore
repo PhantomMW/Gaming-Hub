@@ -1,0 +1,30 @@
+# Eclipse
+.metadata/
+*.log
+
+# Eclipse build output
+Debug/
+Release/
+Build/
+
+# Compiled files
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.a
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Eclipse local history
+.history/
