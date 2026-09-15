@@ -238,6 +238,7 @@ Gaming_Hub/
 ├── .project
 ├── .cproject
 └── README.md
+```
 
 ## 🛠️ Development Environment
 
